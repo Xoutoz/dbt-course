@@ -1,0 +1,12 @@
+{
+    "name": "dbt",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "postCreateCommand": "bash .devcontainer/post_create.sh",
+    "runArgs": [
+        "--name",
+        "dbt-course"
+    ]
+}
